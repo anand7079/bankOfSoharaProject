@@ -33,7 +33,7 @@ public class BankOfSoharaController {
 	}@GetMapping(path="/gitStatus")
 	public String getGitStatus()
 	{
-		return "first commit after intitalizing git";
+		return "second commit after intitalizing git";
 	}
 	
 }
