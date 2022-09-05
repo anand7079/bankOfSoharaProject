@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.project</groupId>
 	<artifactId>bankOfSohara</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bankOfSohara</name>
 	<description>project for bankOfSohara</description>
