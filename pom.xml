@@ -76,10 +76,16 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<packaging>war</packaging>
-			</plugin>
+		<groupId>org.codehaus.cargo</groupId>
+		<artifactId>cargo-maven2-plugin</artifactId>
+		<version>1.7.6</version>
+		<configuration>
+			<container>
+				<containerId>tomcat9x</containerId>
+				<type>embedded</type>
+			</container>
+		</configuration>
+	</plugin>
 		</plugins>
 	</build>
 
